@@ -23,4 +23,5 @@ You can then install this project template using the following command:
 
 ~~~
 composer create-project --prefer-dist --stability=dev humandevice/yii2-app-basic hd-basic
+php hd-basic/init
 ~~~
