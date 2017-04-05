@@ -1,0 +1,7 @@
+!.gitignore
+console-local.php
+db.php
+db-test.php
+params-local.php
+test.php
+web-local.php
