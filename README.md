@@ -4,6 +4,7 @@ Human Device Yii 2 Basic Project Template
 Human Device Yii 2 Basic Project Template is a skeleton [Yii 2](http://www.yiiframework.com/) application.  
 This project uses [Asset Packagist](https://asset-packagist.org) instead of fxp/composer-asset-plugin. 
 
+## This is work in progress 
 
 REQUIREMENTS
 ------------
