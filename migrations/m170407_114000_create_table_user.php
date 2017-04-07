@@ -18,6 +18,9 @@ class m170407_114000_create_table_user extends Migration
             'auth_key' => $this->string()->notNull(),
             'password_hash' => $this->string()->notNull(),
             'status' => $this->smallInteger()->notNull()->defaultValue('0'),
+            'token_activate' => $this->string(),
+            'token_password' => $this->string(),
+            'token_email' => $this->string(),
             'created_at' => $this->integer(),
             'updated_at' => $this->integer(),
         ], $tableOptions);
