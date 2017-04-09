@@ -1,6 +1,6 @@
 <?php
 
-namespace app\models;
+namespace app\services\user\repos;
 
 use app\components\db\ActiveRecord;
 use Yii;
@@ -161,6 +161,7 @@ class UserRepository extends ActiveRecord implements yii\web\IdentityInterface
 
     /**
      * @inheritdoc
+     * @throws NotSupportedException
      */
     public static function findIdentityByAccessToken($token, $type = null)
     {
